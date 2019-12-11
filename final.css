@@ -1,0 +1,60 @@
+
+@media(min-width:900px){p{color:black;}}
+
+    
+
+.hero {
+
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-image: url(https://static01.nyt.com/images/2019/12/04/nyregion/04nytoday/merlin_164145918_4bf309e5-a459-48b1-84fa-5379bcc79060-superJumbo.jpg?quality=90&auto=webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: blue;
+}
+
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+
+blockquote {
+	font-size: 170%;
+}
+
+
+
+
+/*figcaption {
+	float: right;
+}*/
+
+.signup {
+ 	border: .05px solid black;
+ 	width: 400px;
+    
+
+ }
+
+button {
+	background-color: #4CAF50;
+}
